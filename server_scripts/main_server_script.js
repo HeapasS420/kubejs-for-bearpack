@@ -4,3 +4,7 @@
 ServerEvents.recipes(event => {
   registerBearPackRecipes(event)
 })
+
+ServerEvents.tags('item', event => {
+  registerBearPackItemTags(event)
+})

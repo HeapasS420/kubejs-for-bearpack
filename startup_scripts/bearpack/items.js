@@ -4,8 +4,7 @@
 const registerBearPackItems = (event) => {
 
   // Bear Coins made by @mcdraws on discord
-  event.create('copper_coin')
-  event.create('silver_coin')
-  event.create('gold_coin').glow(true)
-
+  global.COIN_TYPES.forEach(type => {
+  event.create(`${type}_coin`)
+  });
 }
