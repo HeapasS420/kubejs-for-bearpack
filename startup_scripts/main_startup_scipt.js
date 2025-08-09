@@ -3,6 +3,7 @@
 
 StartupEvents.registry('item', event => {
   registerBearPackItems(event)
+  registerExtendedAEItems(event)
 })
 
 Platform.mods.kubejs.name = "BearPack";

@@ -5,4 +5,5 @@ global.COIN_TYPES = [
   'copper',
   'silver',
   'gold'
+
 ];
