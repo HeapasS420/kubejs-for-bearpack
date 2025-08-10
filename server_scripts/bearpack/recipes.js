@@ -2,6 +2,7 @@
 "use strict";
 
 const registerBearPackRecipes = (event) => {
+
   event.shapeless("5x kubejs:copper_coin", "kubejs:silver_coin")
   event.shapeless("kubejs:silver_coin", [
       '5x kubejs:copper_coin'
@@ -13,4 +14,5 @@ const registerBearPackRecipes = (event) => {
       '5x kubejs:silver_coin'
     ]
   );
+
 }
