@@ -6,4 +6,4 @@ StartupEvents.registry('item', event => {
   registerExtendedAEItems(event)
 })
 
-Platform.mods.kubejs.name = "BearPack";
+Platform.mods.kubejs.name = "BearCraft";
