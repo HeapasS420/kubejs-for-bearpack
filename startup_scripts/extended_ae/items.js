@@ -1,4 +1,4 @@
-const registerExtendedAEItems = (event) => {
+function registerExtendedAEItems(event) {
 
   global.EXTENDED_AE_FLUID_CELLS.forEach(type => {
     const t = type.split(":");

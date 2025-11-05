@@ -1,7 +1,7 @@
 // priority: 0
 "use strict";
 
-const registerSilentGemsRecipes = (event) => {
+function registerSilentGemsRecipes(event) {
 
   removeSilentGemsRecipes(event)
 

@@ -1,7 +1,7 @@
 // priority: 0
 "use strict";
 
-const registerActuallyAdditionsItemTags = (event) => {
+function registerActuallyAdditionsItemTags(event) {
 
   global.ACTUALLY_ADDITIONS_DISABLED_ITEMS.forEach(item => {
     event.removeAllTagsFrom(item)

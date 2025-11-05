@@ -1,7 +1,7 @@
 // priority: 0
 "use strict";
 
-const registerActuallyAdditionsRecipes = (event) => {
+function registerActuallyAdditionsRecipes(event) {
 
   removeActuallyAdditionsRecipes(event)
 

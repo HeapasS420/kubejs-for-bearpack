@@ -1,6 +1,6 @@
 "use strict";
 
-const registerExtendedAE2Recipes = (event) => {
+function registerExtendedAE2Recipes(event) {
 
   function cell(output, item ){
     event.shaped(output, [
