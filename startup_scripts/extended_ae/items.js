@@ -1,7 +1,9 @@
 function registerExtendedAEItems(event) {
 
-  const t = type.split(":");
-
+  let function t() { 
+    type.split(":");
+  }
+  
   global.EXTENDED_AE_FLUID_CELLS.forEach(type => {
     event.create(`${t[1]}_cell`, 'custom_infinity_cell')
       .texture(`kubejs:item/${t[1]}_cell`)
