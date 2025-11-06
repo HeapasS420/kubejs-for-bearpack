@@ -1,4 +1,3 @@
-// priority: 0
 "use strict";
 
 function registerSilentGemsItemTags(event) {
