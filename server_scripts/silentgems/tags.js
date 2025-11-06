@@ -1,7 +1,7 @@
 // priority: 0
 "use strict";
 
-const registerSilentGemsItemTags = (event) => {
+function registerSilentGemsItemTags(event) {
 
   global.SILENTGEMS_DISABLED_ITEMS.forEach(item => {
     event.removeAllTagsFrom(item)
